@@ -6,7 +6,7 @@ const launchSettings: LaunchSettings = window.LAUNCH_SETTINGS;
 ltiLaunch(launchSettings).then((valid) => {
   if (valid) {
     document.body.innerHTML = `
-      <h1>Hello World</h1>
+      <h1>- Hello World -</h1>
     `;
 
     const jwt = launchSettings.jwt;
